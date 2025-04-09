@@ -1,6 +1,6 @@
 This is the simple project of sign-in and sign-up form
 
---Tech stach : HTML, CSS,PHP, MySQL, MongoDB, jQuery AJAX, Redis, Bootstrap
+Tech stach used : HTML, CSS,PHP, MySQL, MongoDB, jQuery AJAX, Redis, Bootstrap
 
 * After first successful login a token will be generated and stored in Redis and the local storage of the browser
 
