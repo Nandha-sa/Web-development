@@ -1,0 +1,100 @@
+/* Smooth transitions everywhere */
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile container */
+.container {
+    background: #ffffffd0;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    animation: slideFade 1s ease;
+}
+
+/* Header greeting + button */
+.header h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+/* Form control */
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #f5576c;
+    box-shadow: 0 0 6px rgba(245, 87, 108, 0.4);
+}
+
+/* Update Profile button */
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(245, 87, 108, 0.4);
+}
+
+/* Sign Out Button */
+.btn-danger {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Entry animation */
+@keyframes slideFade {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Welcome Text Styling */
+.welcome-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Subtitle Styling */
+.subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
