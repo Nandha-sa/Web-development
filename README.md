@@ -11,18 +11,23 @@ A simple web application where users can:
 --> Profile Data stored and updated in MongoDB.
 
 🛠️ Technologies Used
+
 Frontend:
+
 --> HTML5, CSS3 (Bootstrap 5.3), JavaScript (jQuery AJAX)
 
 Backend:
+
 --> PHP (with prepared statements for security)
 
 Databases:
+
 --> MySQL (for user credentials)
 
 --> MongoDB (for user profiles)
 
 Session Handling:
+
 --> LocalStorage (Frontend)
 
 --> Redis (Backend Session Tokens)
