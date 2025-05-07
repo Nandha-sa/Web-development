@@ -1,7 +1,11 @@
 <?php
 // MySQL Connection
-$mysqli = new mysqli("localhost", "root", "", "user_db");
+$severname = "localhost";
+$username = "guvi_user";
+$password = " ";
+$dbname = "guvi_db;
 
+$mysqli = new mysqli($servername, $username , $password, $dbname);
 // Check MySQL connection
 if ($mysqli->connect_error) {
     die(json_encode(["success" => false, "message" => "MySQL Connection Failed: " . $mysqli->connect_error]));
