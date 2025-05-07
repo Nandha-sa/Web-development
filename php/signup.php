@@ -8,7 +8,6 @@ header('Content-Type: application/json');
 // Ensure MongoDB connection is available
 $client = new MongoDB\Client("mongodb://127.0.0.1:27017");  // MongoDB URI
 $database = $client->user_profiles;  // MongoDB database name
-$usersCollection = $database->users;  // Collection to store user data
 $profilesCollection = $database->profiles;  // Collection to store user profiles
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
