@@ -11,7 +11,7 @@ $(document).ready(function () {
         }
 
         $.ajax({
-            url: 'http://localhost/guvi project/php/login.php', // ✅ Fixed URL
+            url: 'http://localhost/guvi project/php/login.php', 
             type: 'POST',
             data: { email: email, password: password },
             dataType: 'json', // Expect JSON response
